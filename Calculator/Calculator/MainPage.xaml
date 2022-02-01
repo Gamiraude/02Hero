@@ -40,7 +40,7 @@
                VerticalTextAlignment="Center"
                HorizontalTextAlignment="End"
                TextColor="White"/>
-        <Button Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="C" Style="{StaticResource buttonOperation}" FontSize="Medium"/>
+        <Button Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Text="C" Style="{StaticResource buttonOperation}" FontSize="Medium" Clicked="Button_Clicked_Erase"/>
         <Button Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Text="BACK" Style="{StaticResource buttonOperation}" FontSize="Medium"/>
         <Button Grid.Row="2" Grid.Column="0" Text="7" Style="{StaticResource buttonNumber}" Clicked="Button_Clicked"/>
         <Button Grid.Row="2" Grid.Column="1" Text="8" Style="{StaticResource buttonNumber}" Clicked="Button_Clicked"/>
