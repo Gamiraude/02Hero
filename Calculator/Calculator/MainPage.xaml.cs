@@ -23,7 +23,7 @@ namespace Calculator
 
         private void Button_Clicked_Erase(object sender, EventArgs e)
         {
-            screenLabel.Text = null;
+            screenLabel.Text = string.Empty;
         }
     }
 }
