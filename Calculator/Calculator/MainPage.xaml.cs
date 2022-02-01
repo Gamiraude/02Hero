@@ -13,6 +13,12 @@ namespace Calculator
         public MainPage()
         {
             InitializeComponent();
+
+        }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            screenLabel.Text = (sender as Button).Text;
         }
     }
 }
